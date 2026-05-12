@@ -20,6 +20,7 @@ I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Din
 <span class='anchor' id='news'></span>
 
 # News
+- *2026.05*, 1 paper accepted to TIP 2026.
 - *2026.05*, 1 paper accepted to ICML 2026.
 
 
@@ -51,6 +52,17 @@ Unison: Benchmarking Unified Multimodal Models via Synergistic Understanding and
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/EVIS.png' alt="EVIS" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Event-Aware Instructed Assistant for Referring Video Segmentation. *TIP* 2026.
+
+**Jinyu Liu**, Henghui Ding, Shuting He, Yu-Gang Jiang.
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2022</div><img src='images/MACIL-SD.png' alt="MACIL-SD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
