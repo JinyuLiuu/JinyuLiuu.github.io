@@ -20,7 +20,7 @@ I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Din
 <span class='anchor' id='news'></span>
 
 # News
-- *2026.05*, 1 paper accepted to TIP 2026.
+- *2026.05*, 1 paper accepted to IEEE TIP.
 - *2026.05*, 1 paper accepted to ICML 2026.
 
 
