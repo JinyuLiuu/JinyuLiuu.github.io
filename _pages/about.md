@@ -60,6 +60,8 @@ Event-Aware Instructed Assistant for Referring Video Segmentation. *TIP* 2026.
 
 **Jinyu Liu**, Henghui Ding, Shuting He, Yu-Gang Jiang.
 
+<a href="https://ieeexplore.ieee.org/document/11547898"><i class="fas fa-file-pdf"></i> Paper</a>
+
 </div>
 </div>
 
