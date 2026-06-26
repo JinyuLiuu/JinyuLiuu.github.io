@@ -50,7 +50,7 @@ Unison: Benchmarking Unified Multimodal Models via Synergistic Understanding and
 
 **Jinyu Liu**, Xincheng Shuai, Henghui Ding, Yu-Gang Jiang.
 
-<a href="https://icml.cc/virtual/2026/poster/65384"><i class="fas fa-file-pdf"></i> Paper (upcoming)</a> &nbsp; <a href="https://github.com/FudanCVL/Unison"><i class="fab fa-github"></i> Code (upcoming)</a>
+<a href="https://arxiv.org/abs/2606.26984"><i class="fas fa-file-pdf"></i> Paper</a> &nbsp; <a href="https://github.com/FudanCVL/Unison"><i class="fab fa-github"></i> Code</a>
 
 </div>
 </div>
