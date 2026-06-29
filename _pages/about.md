@@ -104,5 +104,5 @@ Self-Supervised Video Representation Learning with Motion-Contrastive Perception
 <span class='anchor' id='services'></span>
 
 # Services
-- Conference Reviewer for CVPR, ICML, NeurIPS, et al.
+- Conference Reviewer for CVPR, ECCV, ICML, NeurIPS, et al.
 - Journal Reviewer for TIP, et al.
