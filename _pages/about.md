@@ -27,16 +27,16 @@ I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Din
 <span class='anchor' id='education'></span>
 
 # Education
-- *2024 - Present*, Ph.D., <img class="inline-logo" src="/images/fudan.png" alt="" aria-hidden="true"> Fudan University
-- *2020 - 2023*, M.S., <img class="inline-logo" src="/images/fudan.png" alt="" aria-hidden="true"> Fudan University
-- *2016 - 2020*, B.S., <img class="inline-logo" src="/images/donghua.png" alt="" aria-hidden="true"> Donghua University
+- *2024 - Present*, Ph.D., <span class="logo-name"><img class="inline-logo" src="/images/fudan_logo.svg" width="15" height="15" style="width:1em;height:1em" alt="" aria-hidden="true"> Fudan University</span>
+- *2020 - 2023*, M.S., <span class="logo-name"><img class="inline-logo" src="/images/fudan_logo.svg" width="15" height="15" style="width:1em;height:1em" alt="" aria-hidden="true"> Fudan University</span>
+- *2016 - 2020*, B.S., <span class="logo-name"><img class="inline-logo" src="/images/donghua.svg" width="15" height="15" style="width:1em;height:1em" alt="" aria-hidden="true"> Donghua University</span>
 
 
 <span class='anchor' id='internship'></span>
 
 # Experience
-- *2026 - Present*, Research Intern, <img class="inline-logo" src="/images/bytedance-icon.svg" alt="" aria-hidden="true"> ByteDance
-- *2022 - 2023*, Research Intern, <img class="inline-logo" src="/images/tencent-icon.png" alt="" aria-hidden="true"> Tencent
+- *2026 - Present*, Research Intern, <span class="logo-name"><img class="inline-logo" src="/images/bytedance-icon.svg" width="15" height="15" style="width:1em;height:1em" alt="" aria-hidden="true"> ByteDance</span>
+- *2022 - 2023*, Research Intern, <span class="logo-name"><img class="inline-logo" src="/images/tencent-icon.svg" width="15" height="15" style="width:1em;height:1em" alt="" aria-hidden="true"> Tencent</span>
 
 
 <span class='anchor' id='publications'></span>
