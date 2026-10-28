@@ -1,9 +1,9 @@
 name: Get Citation Data
 
-on: 
- page_build: 
+on:
+ page_build:
  schedule:
-  - cron:  '0 8 * * *'
+  - cron: '0 8 * * *'
  workflow_dispatch:
 
 
@@ -13,22 +13,34 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v4
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+    - name: Check out website source
+      uses: actions/checkout@v4
+      with:
+        path: source
+
+    - name: Check out existing citation data
+      uses: actions/checkout@v4
+      with:
+        ref: google-scholar-stats
+        path: citation-data
+
+    - name: Fetch Google Scholar data
+      working-directory: source
+      run: python3 google_scholar_crawler/main.py --output-dir ../citation-data
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+
+    - name: Publish updated citation data
+      working-directory: citation-data
+      shell: bash
+      run: |
+        git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
+        git add *.json
+        if git diff --cached --quiet; then
+          echo "Citation data is unchanged."
+          exit 0
+        fi
+        git commit -m "Update citation data"
+        git push origin HEAD:google-scholar-stats

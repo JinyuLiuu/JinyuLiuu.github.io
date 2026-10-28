@@ -35,8 +35,8 @@ I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Din
 <span class='anchor' id='internship'></span>
 
 # Experience
-- *2023 - 2024*, Computer Vision Engineer, Trip.com Group
-- *2022 - 2023*, Research Intern, Tencent
+- *2026 - Present*, Research Intern, <i class="fas fa-building" aria-hidden="true"></i> ByteDance
+- *2022 - 2023*, Research Intern, <i class="fas fa-building" aria-hidden="true"></i> Tencent
 
 
 <span class='anchor' id='publications'></span>

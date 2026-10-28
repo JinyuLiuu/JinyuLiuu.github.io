@@ -7,13 +7,18 @@
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitationElement = document.getElementById('total_cit')
+            if (totalCitationElement) {
+                totalCitationElement.innerHTML = totalCitation
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
+                var publication = data['publications'] && data['publications'][paperId]
+                if (publication) {
+                    element.innerHTML = '| Citations: ' + publication['num_citations']
+                }
+            })
+        })
     })
 </script>
