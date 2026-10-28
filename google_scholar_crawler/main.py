@@ -149,7 +149,7 @@ def main():
     )
     args = parser.parse_args()
 
-    author_id = os.environ.get("GOOGLE_SCHOLAR_ID", "oPK92GMAAAAJ")
+    author_id = os.environ.get("GOOGLE_SCHOLAR_ID") or "oPK92GMAAAAJ"
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     previous_author = load_fallback(

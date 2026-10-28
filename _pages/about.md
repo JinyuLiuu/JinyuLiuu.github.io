@@ -8,13 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Ding](https://henghuiding.com) and [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=zh-CN&authuser=1&oi=ao).
- <a href='https://scholar.google.com/citations?user=oPK92GMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+ <a class="scholar-badge" href="https://scholar.google.com/citations?user=oPK92GMAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Citations: <span id="total_cit">124</span></a>
 
 
 <span class='anchor' id='news'></span>
@@ -35,8 +32,8 @@ I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Din
 <span class='anchor' id='internship'></span>
 
 # Experience
-- *2026 - Present*, Research Intern, <span class="company-name"><svg class="company-logo company-logo--bytedance" aria-hidden="true" viewBox="0 0 24 24"><path d="M19.8772 1.4685L24 2.5326v18.9426l-4.1228 1.0563V1.4685zm-13.3481 9.428l4.115 1.0641v8.9786l-4.115 1.0642v-11.107zM0 2.572l4.115 1.0642v16.7354L0 21.428V2.572zm17.4553 5.6205v11.107l-4.1228-1.0642V9.2568l4.1228-1.0642z"/></svg>ByteDance</span>
-- *2022 - 2023*, Research Intern, <span class="company-name"><svg class="company-logo company-logo--tencent" aria-hidden="true" viewBox="0 0 24 24"><path class="company-logo__tile" d="M4.1 1.5h19.4l-3.6 21H.5z"/><path class="company-logo__mark" d="M7 8.1h4.7l.6-3.2 7.4 5.2h-8.1l-1.7 9H7l1.7-9H6.3z"/></svg>Tencent</span>
+- *2026 - Present*, Research Intern, <span class="company-name"><img class="company-logo company-logo--bytedance" src="/images/bytedance-logo.svg" alt="ByteDance"></span>
+- *2022 - 2023*, Research Intern, <span class="company-name"><img class="company-logo company-logo--tencent" src="/images/tencent-logo.png" alt="Tencent"></span>
 
 
 <span class='anchor' id='publications'></span>
