@@ -112,3 +112,28 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.company-name {
+    white-space: nowrap;
+}
+
+.company-logo {
+    width: 1em;
+    height: 1em;
+    margin-right: .3em;
+    vertical-align: -.12em;
+}
+
+.company-logo--bytedance {
+    fill: #3c8cff;
+}
+
+.company-logo--tencent {
+    .company-logo__tile {
+        fill: #146be1;
+    }
+
+    .company-logo__mark {
+        fill: #fff;
+    }
+}
