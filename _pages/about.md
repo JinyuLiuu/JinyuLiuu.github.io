@@ -8,10 +8,13 @@ redirect_from:
   - /about.html
 ---
 
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json?v=2" %}
+
 <span class='anchor' id='about-me'></span>
 
 I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Ding](https://henghuiding.com) and [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=zh-CN&authuser=1&oi=ao).
- <a class="scholar-badge" href="https://scholar.google.com/citations?user=oPK92GMAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Citations: <span id="total_cit">124</span></a>
+ <a href='https://scholar.google.com/citations?user=oPK92GMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 <span class='anchor' id='news'></span>
@@ -24,16 +27,16 @@ I am a second-year Ph.D. student at Fudan University, supervised by [Henghui Din
 <span class='anchor' id='education'></span>
 
 # Education
-- *2024 - Present*, Ph.D., Fudan University
-- *2020 - 2023*, M.S., Fudan University
-- *2016 - 2020*, B.S., Donghua University
+- *2024 - Present*, Ph.D., <img class="inline-logo" src="/images/fudan.png" alt="" aria-hidden="true"> Fudan University
+- *2020 - 2023*, M.S., <img class="inline-logo" src="/images/fudan.png" alt="" aria-hidden="true"> Fudan University
+- *2016 - 2020*, B.S., <img class="inline-logo" src="/images/donghua.png" alt="" aria-hidden="true"> Donghua University
 
 
 <span class='anchor' id='internship'></span>
 
 # Experience
-- *2026 - Present*, Research Intern, <span class="company-name"><img class="company-logo company-logo--bytedance" src="/images/bytedance-logo.svg" alt="ByteDance"></span>
-- *2022 - 2023*, Research Intern, <span class="company-name"><img class="company-logo company-logo--tencent" src="/images/tencent-logo.png" alt="Tencent"></span>
+- *2026 - Present*, Research Intern, <img class="inline-logo" src="/images/bytedance-icon.svg" alt="" aria-hidden="true"> ByteDance
+- *2022 - 2023*, Research Intern, <img class="inline-logo" src="/images/tencent-icon.png" alt="" aria-hidden="true"> Tencent
 
 
 <span class='anchor' id='publications'></span>
