@@ -1,14 +1,14 @@
 {
   "name": "Jinyu Liu",
-  "citedby": 128,
-  "updated": "2026-11-09T18:34:15.473450+00:00",
+  "citedby": 129,
+  "updated": "2026-11-10T16:17:34.217396+00:00",
   "publications": {
     "oPK92GMAAAAJ:qjMakFHDy7sC": {
       "author_pub_id": "oPK92GMAAAAJ:qjMakFHDy7sC",
       "bib": {
         "title": "Modality-Aware Contrastive Instance Learning with Self-Distillation for Weakly-Supervised Audio-Visual Violence Detection"
       },
-      "num_citations": 118
+      "num_citations": 119
     },
     "oPK92GMAAAAJ:W7OEmFMy1HYC": {
       "author_pub_id": "oPK92GMAAAAJ:W7OEmFMy1HYC",
